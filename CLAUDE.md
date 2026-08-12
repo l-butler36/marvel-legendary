@@ -44,7 +44,7 @@ Open `Legendary-Solo-Play-main\Legendary-Solo-Play-main\index.html` directly in 
 
 ## Deployment
 
-- Game is hosted on GitHub Pages at: `https://LoserChallenge.github.io/marvel-legendary/`
+- Game is hosted on GitHub Pages at: `https://l-butler36.github.io/marvel-legendary/`
 - Push to `master` branch deploys automatically (~1 min delay; hard refresh `Ctrl+Shift+R` to bust cache)
 - **Service Worker cache:** After pushing code changes, bump `CACHE_NAME` in `sw.js` (e.g. `'legendary-v3'` → `'legendary-v4'`). Without this, users' browsers will keep serving the old cached files. This is the #1 cause of "changes don't show on GitHub Pages."
 - **`FILES_TO_CACHE` in `sw.js`:** When adding a new expansion JS file, also add its path to the `FILES_TO_CACHE` array — bumping `CACHE_NAME` alone is not enough; the file won't be served offline/PWA without an explicit entry

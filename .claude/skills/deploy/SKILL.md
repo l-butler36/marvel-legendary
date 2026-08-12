@@ -58,6 +58,6 @@ Report whether it succeeded or failed. If it failed, show the error and stop —
 
 Tell the user:
 - GitHub Pages takes ~1 minute to deploy after a push
-- To verify: open **https://LoserChallenge.github.io/marvel-legendary/** in their browser
+- To verify: open **https://l-butler36.github.io/marvel-legendary/** in their browser
 - Use **Ctrl+Shift+R** (hard refresh) to bypass the browser cache and see the latest version
 - If the page looks unchanged after 2 minutes, check the Actions tab on GitHub for deployment errors
